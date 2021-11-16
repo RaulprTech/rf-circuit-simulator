@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main {
+  @apply text-center w-screen h-full content-center
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.aside{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.dndflow{
+  display: flex;
+}
+
+.diagram-layout{
+  @apply w-screen;
+  height: 35rem;
+}
+
+.dndnode{
+  border: solid 1px blueviolet;
+  border-radius: 4px;
+  height: 2rem;
+  width: 8rem;
+  margin: 2px;
+
+}
